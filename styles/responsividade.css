@@ -1,0 +1,45 @@
+@media screen and (max-width:480px) {
+
+    .banner-content h1 {
+        font-size: 1.5rem;
+        line-height: 30px;
+        
+      }
+    .banner-content p {
+        font-size: .8rem;
+        line-height: 20px;
+        text-align: justify;
+      }
+
+      #course-content h2 {
+        font-size: 22px;
+        letter-spacing: 2px;
+      }
+      #course-content p {
+        text-align: justify;
+      }
+
+      .module {
+        width: 70%;
+        font-size: 0.9em;
+      }
+
+      #transform-world p {
+        max-width: 250px;
+        font-size: 2rem;
+        line-height: 35px;
+        letter-spacing: .3rem;
+        font-weight: 600;
+      }
+
+      #professional-challenges h2{
+        letter-spacing: 2px;
+        font-size: .9rem;
+        margin-bottom: 10px;
+      }
+
+      #professional-challenges p{
+        text-align: justify;
+      }
+
+}

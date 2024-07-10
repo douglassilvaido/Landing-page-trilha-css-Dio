@@ -11,7 +11,7 @@ p {
 
 section {
   /* Define a margem superior e inferior como 100px e centraliza o conteúdo horizontalmente */
-  margin: 100px auto;
+  margin: 80px auto;
 }
 
 .banner {
@@ -82,7 +82,7 @@ main {
 }
 
 #course-content {
-  margin: 10% 0;
+  margin: 2rem 0 1rem 0;
   width: 70%;
 }
 
@@ -114,7 +114,6 @@ main {
 
 .module:hover {
     cursor: pointer;
-    src: url(https://www.google.com.br/?hl=pt-BR);
     background-color: rgba(41, 38, 38, .9);
   transition: 300ms linear;
 }
@@ -141,7 +140,7 @@ main {
   line-height: 40px;
   letter-spacing: 4px;
   position: absolute;
-  margin: 3em 2.5em;
+  margin: 3em 10%;
   font-weight: 600;
   text-shadow: 3px 2px #33a8db;
 }
@@ -150,10 +149,15 @@ main {
     display: flex;
     flex-direction: column;
     width: 70%;
+    margin-top: 0px;
 }
 
 #professional-challenges h2{
     letter-spacing: 3px;
+    font-size: 1.5rem;
+}
+#professional-challenges p {
+  margin-top: 10px;
 }
 
 footer {
@@ -167,10 +171,11 @@ footer {
 
 footer .dio-logo {
   margin-top: 40px;
+  width: 15rem;
 }
 footer p {
   margin-top: 10px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 18.78px;
   text-align: Center;
